@@ -16,6 +16,7 @@ export default {
       'white':'#FFFFFF',
       'green':"#118F4B",
       'border':'#474646',
+      'writing':'#878787',
       'red':'#EB1F04'
     },
     extend: {},

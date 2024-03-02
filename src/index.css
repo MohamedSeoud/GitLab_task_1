@@ -3,5 +3,35 @@
 @tailwind utilities;
 :root {
   font-family: Poppins , sans-serif;
+  --radio-border-color: #ffa500 !important;
+  --radio-checked-color: #ffa500 !important;
+  --radio-hover-color: #ffa500!important;
+  --radio-disabled-bg-color: #ffa500!important;
 }
 
+
+
+input[type="radio"] {
+  box-sizing: border-box !important;
+  width: 15px !important;
+  color:#53ACFF !important;
+  font-color:#53ACFF !important;
+  height: 15px !important;
+  margin: 6px !important;
+  padding: 1px !important; 
+  border-color: #53ACFF !important;
+  border: 5px solid #313131 !important;
+  border-radius: 50% !important;
+  appearance: none !important;
+  background-color: #181818 !important;
+  outline: none !important;
+  cursor: pointer !important;
+  
+}
+
+input[type="radio"]:checked {
+  border-color: #53ACFF;
+  background-color: #53ACFF !important;
+  padding: 2px !important;
+
+}
